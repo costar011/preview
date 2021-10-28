@@ -17,4 +17,15 @@ body {
 .btn {
   width: 120px;
   height: 40px;
+  font-size: 1.1em;
+  background: none;
+  border: none;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
 }
