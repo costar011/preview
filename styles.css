@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +35,7 @@ body {
 
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #dadaf5, #7171e3, #5757eb;
   backdrop-filter: blur(20px);
   border-radius: 10px;
   z-index: -2;
@@ -49,4 +51,8 @@ body {
   z-index: -3;
   transform: scaleX(0.5);
   transition: all 0.6s;
+}
+
+.btn:hover::after {
+  transform: skewX(1.01) translateY(-15px);
 }
